@@ -21,7 +21,7 @@ function ToDoApp() {
 
     return (
         // GENERAR COPN BOOTSTRAP!!!!
-        <div className="to-do-container"> 
+        <div className= "to-do-container"> 
             <h1 className="title">to do!</h1>
             <form onSubmit={handleSubmit}>
                 <input
