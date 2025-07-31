@@ -26,7 +26,7 @@ function ToDoApp() {
         counter = `${todos.length} tareas pendientes`;
     }
     return (
-        // GENERAR COPN BOOTSTRAP!!!!
+  
         <div className="container">
         <div className="to-do-container ">
             <h1 className="title">To Do List</h1>
@@ -46,7 +46,7 @@ function ToDoApp() {
                     </li>
                 ) : (
                     todos.map((todo, index) => (
-                        <li key={index} className="task-item  d-flex justify-content-between align-items-center">
+                        <li key={index} className="task-item  d-flex justify-content-between ">
                             <span>{todo}</span>
                             <button type="button" className="btn  btn-sm delete-button"
                                 onClick={() => handleDelete(index)}
